@@ -1,4 +1,4 @@
-export default () => {
+export const GetVisibilityNames = () => {
   let hidden, visibilityChange
   const doc: any = document
   if (typeof doc.hidden !== 'undefined') {
