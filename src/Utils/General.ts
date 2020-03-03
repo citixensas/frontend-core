@@ -4,6 +4,8 @@ export const isMobile = () => navigator.userAgent.match(/Android/i) || navigator
 
 export const renderImageUrl = (image_url: any) => !!image_url ? image_url : ''
 
+export const CitixenAudio = new Audio('assets/audio/notification.mp3')
+
 const raiseChildren = (nav: any): any => {
   if (!Array.isArray(nav)) {
     const {url, auth, children} = nav
