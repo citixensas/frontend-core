@@ -1,7 +1,9 @@
 import Messages from './Messages/Messages'
 import WrapperActions from './HandleErrors/WrapperActions'
+import * as Utils from './Utils'
 
-export {
+export default {
   Messages,
-  WrapperActions
+  WrapperActions,
+  Utils
 }
