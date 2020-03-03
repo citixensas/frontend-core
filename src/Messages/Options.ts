@@ -17,11 +17,11 @@ interface DefaultOptions {
 
 export default class Options {
 
-  public getOptions(type?: string, options?: IziToastSettings): IziToastSettings {
+  protected getOptions(type?: string, options?: IziToastSettings): IziToastSettings {
     return {...this.getDefaultOptions(type), ...options}
   }
 
-  public getChatOptions(message?: string, type?: string, options?: IziToastSettings): IziToastSettings {
+  protected getChatOptions(message?: string, type?: string, options?: IziToastSettings): IziToastSettings {
     return {...this.getChatDefaultOptions(message,type), ...options}
   }
 

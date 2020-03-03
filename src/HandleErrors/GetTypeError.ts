@@ -1,7 +1,7 @@
 import slugify from 'slugify'
 import './types'
 
-export class GetTypeError {
+export default class GetTypeError {
   addAction: AddActionCallback
   refreshToken: RefreshTokenCallback
   openingError: OpeningErrorCallback

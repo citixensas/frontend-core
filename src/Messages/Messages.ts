@@ -1,7 +1,7 @@
 import Options from "./Options"
 import iziToast, {IziToastSettings} from 'izitoast'
 
-export class MessagesClass extends Options {
+export default class MessagesClass extends Options {
 
   error(message: string, title: string = '', id: string = '') {
     const options = this.getOptions('error', {message, title, id})
@@ -32,7 +32,3 @@ export class MessagesClass extends Options {
     iziToast.show({...this.getChatOptions(message,type, completeOptions)})
   }
 }
-
-const instance = new MessagesClass()
-const Messages = Object.freeze(instance)
-export default Messages
