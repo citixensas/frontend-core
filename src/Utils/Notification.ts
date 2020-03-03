@@ -2,7 +2,7 @@ import MessagesClass from '../Messages/Messages'
 
 const Messages = new MessagesClass()
 
-export const Notification = async (title: any, message: any, type: any, by: any) => {
+export const CreateNotification = async (title: any, message: any, type: any, by: any) => {
   const focus = JSON.parse(localStorage.getItem('focus') as any)
   if (!focus) {
     if ("Notification" in window) {

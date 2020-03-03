@@ -4,7 +4,7 @@ import {ValidateTelephone} from './ValidateTelephone';
 import {WhatsappFormater} from './WhatsappFormater';
 import {SearchByFields} from './SearchByFields';
 import {CompressFile} from './CompressFile';
-import {Notification} from './Notification';
+import {CreateNotification as Notification} from './Notification';
 import {FindAction} from './FindAction';
 import {
   CitixenAudio,
