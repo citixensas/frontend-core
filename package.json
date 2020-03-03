@@ -19,6 +19,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "izitoast": "^1.4.0"
+    "izitoast": "^1.4.0",
+    "slugify": "^1.4.0"
   }
 }
