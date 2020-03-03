@@ -1,4 +1,4 @@
-export default (image: any) => new Promise((resolve, reject) => {
+export const CompressFile = (image: any) => new Promise((resolve, reject) => {
   const fileName = image.name
   const reader = new FileReader()
   reader.readAsDataURL(image)

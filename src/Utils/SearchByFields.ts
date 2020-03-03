@@ -9,7 +9,7 @@ const valueObject = (obj: any, fields: any) => {
   return value
 }
 
-export default (array: any, field: any, value: any) => {
+export const SearchByFields = (array: any, field: any, value: any) => {
   if (!!value) {
     let fields = field.split('.')
     return array.filter((element: any) => {

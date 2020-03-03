@@ -1,4 +1,4 @@
-export default (value_: any, currency: any, decimal: any) => {
+export const LocalCurrencyConversion = (value_: any, currency: any, decimal: any) => {
   let value = value_.toString().split('.')[0]
 
   value = value.replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")

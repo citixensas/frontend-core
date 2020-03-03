@@ -1,4 +1,4 @@
-export default (valueData: any) => {
+export const ValidateTelephone = (valueData: any) => {
   valueData = valueData.split(' ').join('')
 
   if ((valueData.startsWith('000')) && (valueData.startsWith('0000'))) {

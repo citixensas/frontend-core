@@ -9,4 +9,4 @@ const getAllActions = (): any => {
   return modules
 }
 
-export default (module: any, name: any) => getAllActions()[module][name]
+export const FindAction = (module: any, name: any) => getAllActions()[module][name]
