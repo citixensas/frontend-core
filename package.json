@@ -4,7 +4,6 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json"
@@ -29,6 +28,8 @@
   },
   "np": {
     "yarn": false,
-    "contents": "dist"
+    "contents": "dist",
+    "yolo": true,
+    "anyBranch": true
   }
 }
