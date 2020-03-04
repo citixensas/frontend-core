@@ -1,7 +1,9 @@
-import Messages from './Messages/Messages'
-import WrapperActions from './HandleErrors/WrapperActions'
+import * as Messages from './Messages'
+import * as WrapperActions from './HandleErrors'
+import * as Utils from './Utils'
 
 export {
   Messages,
-  WrapperActions
+  WrapperActions,
+  Utils
 }
