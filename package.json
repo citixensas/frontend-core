@@ -25,11 +25,5 @@
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "slugify": "^1.4.0"
-  },
-  "np": {
-    "yarn": false,
-    "contents": "dist",
-    "yolo": true,
-    "anyBranch": true
   }
 }
